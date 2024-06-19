@@ -1,0 +1,44 @@
+section {
+
+    max-width: 70rem; /* 헤더의 최대 너비 설정 */
+    margin: 0 auto; /* 가운데 정렬 */
+    width: 100%;
+    border-top: 1px solid #000000;
+    margin-bottom: 2rem;
+}
+
+section .notice {
+    height: 20rem;
+    position: relative;
+}
+
+section .banner {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+section .pre_icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    transform: translate( -50%, -50% );
+    color: white;
+    cursor:grab;
+}
+
+section .next_icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 51%;
+    left: 97%;
+    transform: translate( -50%, -50% );
+    color: white;
+    transform: scaleX(-1);
+    cursor:grab;
+}
+
