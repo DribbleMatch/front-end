@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #333; /* 헤더 텍스트 색상 변경 */
+    max-width: 70rem; /* 헤더의 최대 너비 설정 */
+    margin: 0 auto; /* 가운데 정렬 */
+    width: 100%; /* 헤더가 화면 너비를 따라가도록 설정 */
+
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(88, 197, 93);
+    padding-left: 1rem;
+}
+
+header .menuIcon {
+    height: 1.5rem;
+    width: 2rem;
+    cursor:grab;
+}
+
+header .userInfoIcon {
+    height: 2rem;
+    width: 1.5rem;
+    cursor:grab;
+    padding: 0;
+}
+
+header .searchBar {
+    padding-right: 1rem;
+    margin-left: auto;
+}
+
+header .searchBar input {
+    width: 25rem;
+    height: 2rem;
+    border-radius: 6px;
+    padding: 0.5rem; /* 여백을 추가하여 더 깔끔하게 보이도록 합니다 */
+    border: 0;
+    background-color: #e9e1e1;
+}
+
+header .searchBar input::placeholder {
+    color: #888; /* placeholder 텍스트 색상 */
+    font-size: 17px; /* placeholder 글씨 크기 */
+    font-weight: 900;
+}
