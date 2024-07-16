@@ -1,0 +1,58 @@
+section {
+    max-width: 70rem; /* 헤더의 최대 너비 설정 */
+    margin: 0 auto; /* 가운데 정렬 */
+    width: 100%;
+}
+
+.signup-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section .signup-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    width: 60%;
+}
+
+section .signup-container label {
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+section .signup-container input[type="text"],
+section .signup-container input[type="email"],
+section .signup-container input[type="password"] {
+    width: 100%;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.signup-container button {
+    padding: 10px;
+    background-color: #f38c48;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.signup-container button:hover {
+    background-color: #f8802d;
+}
+

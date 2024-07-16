@@ -1,7 +1,0 @@
-section {
-
-    max-width: 70rem; /* 헤더의 최대 너비 설정 */
-    margin: 0 auto; /* 가운데 정렬 */
-    width: 100%;
-    border-top: 1px solid #000000;
-}

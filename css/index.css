@@ -1,23 +1,23 @@
 section {
-    max-width: 70rem; /* 헤더의 최대 너비 설정 */
+    max-width: 70rem;
+    margin: 0 auto;
     width: 100%;
-    border-top: 1px solid #ffffff;
-    margin-bottom: 2rem;
 }
 
 section .notice {
     height: 20rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 
-section .banner {
+section .notice .banner {
     height: 100%;
     width: 100%;
     border-radius: 10px;
     margin-top: 1rem;
 }
 
-section .pre_icon {
+section .notice .pre_icon {
     height: 1.5rem;
     width: 1.5rem;
     position: absolute;
@@ -28,7 +28,7 @@ section .pre_icon {
     cursor:grab;
 }
 
-section .next_icon {
+section .notice .next_icon {
     height: 1.5rem;
     width: 1.5rem;
     position: absolute;
@@ -39,7 +39,7 @@ section .next_icon {
     cursor:grab;
 }
 
-section .menu {
+section .content {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
@@ -47,7 +47,7 @@ section .menu {
     text-align: center;
 }
 
-section .menuItem {
+section .content .menu {
     flex: 1;
     text-align: center;
     background-color: #f38c48;
@@ -57,16 +57,15 @@ section .menuItem {
     box-sizing: border-box; /* 패딩과 보더를 포함한 너비 계산 */
 }
 
-section .menuItem p {
+section .content .menu p {
     font-size: 1.3rem;
     font-weight: 900;
     color: #000000;
     cursor: grab;
     margin: 0; /* 기본 마진 제거 */
-    
 }
 
-section .divider {
+section .content .divider {
     width: 4px;
     background-color: black;
     height: 100%; /* 높이를 menu의 높이에 맞추기 */
